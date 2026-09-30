@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+results/
+*.nc
+*.zarr/
+# Original donor is a local reference, not part of the public distribution.
+progress_kinetics_donor/
+progress_kinetics_donor_*.zip

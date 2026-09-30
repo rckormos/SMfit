@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-30",
+  "reference": "float64 CPU",
+  "donor_integrity": "44 SHA256 checks passed",
+  "donor_tests": {
+    "passed": 84
+  },
+  "public_tests": {
+    "passed": 75,
+    "skipped": 1,
+    "skip_reason": "CUDA unavailable"
+  },
+  "versions": {
+    "progress-kinetics": "0.1.0",
+    "numpy": "2.5.3",
+    "torch": "2.10.0",
+    "xarray": "2026.9.0",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.9",
+    "h5netcdf": "1.8.1",
+    "zarr": "3.4.0"
+  },
+  "checks": [
+    "ruff check",
+    "ruff format --check",
+    "compileall",
+    "editable install",
+    "NetCDF/Zarr round trips",
+    "CLI exit policy",
+    "wheel and sdist build",
+    "visual plot inspection"
+  ]
+}

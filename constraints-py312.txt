@@ -1,0 +1,11 @@
+# Tested on Python 3.12; use: pip install -c constraints-py312.txt -e '.[dev]'
+numpy==2.5.3
+torch==2.10.0
+xarray==2026.9.0
+scipy==1.17.1
+matplotlib==3.10.9
+h5netcdf==1.8.1
+h5py==3.16.0
+zarr==3.4.0
+pytest==9.1.1
+ruff==0.16.9
